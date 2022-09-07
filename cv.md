@@ -38,3 +38,29 @@ https://github.com/eviv2206/happy-dress-server.
 
 ---
 
+### Code example:
+**Task from CODEWARS:** _a Narcissistic Number_ is a positive number which is the sum of its own digits,
+each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves
+to decimal (base 10). Return true or false depending upon whether the given number is a Narcissistic number in base 10.
+
+```
+function narcissistic(value) {
+    let sum = 0;
+    for (let i = 0; i < value.toString().length; i++) {
+        sum += Math.pow(+value.toString()[i], value.toString().length);
+    }
+  
+    return sum === value;
+}
+```
+
+### Education:
+* Belarussian state university of informatics and radioelectronics
+    * Faculty: Computer systems and networks (2021-2025)
+
+---
+
+### Languages:
+* English: Intermediate (according to EPAM English test result)
+* Russian: Native
+* Belarussian: Upper-Intermediate
